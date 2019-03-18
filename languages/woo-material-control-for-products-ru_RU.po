@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo material control for products\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-22 08:24+0000\n"
+"PO-Revision-Date: 2018-12-22 08:24+0000\n"
+"Last-Translator: purr <luckyinsite@gmail.com>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: admin/includes/class-woo-material-control-for-products-admin-submenu-page.php:25
+#: admin/includes/class-woo-material-control-for-products-admin-submenu.php:51
+msgid "Material control - Inventory report"
+msgstr "Контроль материалов - Отчёт о запасах"
+
+#: admin/includes/class-woo-material-control-for-products-admin-submenu.php:52
+msgid "Inventory report"
+msgstr "Отчёт о запасах"
+
+#: includes/classes/class-woo-material-control-for-products-fields.php:30
+#: includes/classes/class-woo-material-control-for-products-fields.php:63
+msgid "Quantity of Inventory"
+msgstr "Количество запасов"
+
+#: includes/classes/class-woo-material-control-for-products-fields.php:42
+msgid "Name of Material"
+msgstr "Название материала"
+
+#: includes/classes/class-woo-material-control-for-products-fields.php:51
+msgid "Quantity of Material"
+msgstr "Количество материала"
+
+#: includes/classes/class-woo-material-control-for-products-fields.php:53
+#: includes/classes/class-woo-material-control-for-products-fields.php:64
+msgid "ml, gram, piece"
+msgstr "мл, грамм, штук"
+
+#: includes/classes/class-woo-material-control-for-products-fields.php:55
+msgid "quantity material in composition (ml, gram, piece)"
+msgstr "количество материала в составе товара (мг, грамм, штук)"
+
+#: includes/classes/class-woo-material-control-for-products-fields.php:60
+msgid "Quantity in stock"
+msgstr "Количество в наличии"
+
+#: includes/classes/class-woo-material-control-for-products-fields.php:66
+msgid "in stock (ml, gram, piece)"
+msgstr "в наличии (мл, грамм, штук)"
+
+#: includes/classes/class-woo-material-control-for-products-fields.php:75
+msgid "Composition Of Product"
+msgstr "Состав продукта"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:24
+msgid "Inventories"
+msgstr "Запасы"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:25
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:26
+msgid "Inventory"
+msgstr "Запасы"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:27
+msgid "All Inventory"
+msgstr "Все запасы"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:28
+msgid "Parent Inventory"
+msgstr "Родительские запасы"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:29
+msgid "Parent Inventory:"
+msgstr "Родительские запасы:"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:30
+msgid "New Inventory Name"
+msgstr "Новое название запаса"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:31
+msgid "Add New Inventory"
+msgstr "Добавить новый запас"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:32
+msgid "Edit Inventory"
+msgstr "Редактировать запас"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:33
+msgid "Update Inventory"
+msgstr "Обновить запас"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:34
+msgid "Separate Inventory with commas"
+msgstr "Разделите запасы запятой"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:35
+msgid "Search Inventory"
+msgstr "Найти запас"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:36
+msgid "Add or remove Inventory"
+msgstr "Добавить или удалить запас"
+
+#: includes/classes/class-woo-material-control-for-products-taxonomy.php:37
+msgid "Choose from the most used Inventory"
+msgstr "Выберите из часто используемых запасов"
+
+#. Name of the plugin
+msgid "Woo material control for products"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"This is a short description of what the plugin does. It's displayed in the "
+"WordPress admin area."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "#"
+msgstr ""
+
+#. Author of the plugin
+msgid "Kishkin Dmitriy (atlantdak)"
+msgstr ""
