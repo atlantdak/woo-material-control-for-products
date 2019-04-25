@@ -2,3 +2,25 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+
+.inventory-report-title{
+    margin-bottom: 30px;
+}
+
+#inventory-report-table{
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+
+#inventory-report-table a{
+    text-decoration: none;
+    color: initial;
+}
+
+#inventory-report-table td{
+    background: #f0f7f1;
+}
+#inventory-report-table .low_in_stock td{
+    background: #fbe4e4;
+}

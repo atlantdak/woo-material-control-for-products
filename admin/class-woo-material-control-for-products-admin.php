@@ -82,6 +82,7 @@ class Woo_Material_Control_For_Products_Admin {
 		 * class.
 		 */
 
+		wp_enqueue_style( 'tablesorter', plugin_dir_url( __FILE__ ) . 'css/tablesorter.css', array(), $this->version, 'all' );
 		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/woo-material-control-for-products-admin.css', array(), $this->version, 'all' );
 
 	}
@@ -105,6 +106,7 @@ class Woo_Material_Control_For_Products_Admin {
 		 * class.
 		 */
 
+		wp_enqueue_script( 'tablesorter', plugin_dir_url( __FILE__ ) . 'js/jquery.tablesorter.min.js', array( 'jquery' ), $this->version, false );
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/woo-material-control-for-products-admin.js', array( 'jquery' ), $this->version, false );
 
 	}

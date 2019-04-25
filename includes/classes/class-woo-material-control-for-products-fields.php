@@ -64,6 +64,12 @@ class Woo_Material_Control_For_Products_Fields{
                 ->set_attribute( 'placeholder', __(  'ml, gram, piece', 'woo-material-control-for-products' ) )
                 ->set_attribute( 'pattern', '[0-9]+' )
                     ->help_text('<p><i>'. __( 'in stock (ml, gram, piece)', 'woo-material-control-for-products' ) .'</i></p>'),
+            ) )
+            ->add_fields( array(
+                Field::make( 'text', 'quantity_of_inventory_for_low_in_stock', __( 'Quantity of Inventory for low in stock', 'woo-material-control-for-products' ) )
+                    ->set_attribute( 'placeholder', __(  'ml, gram, piece', 'woo-material-control-for-products' ) )
+                    ->set_attribute( 'pattern', '[0-9]+' )
+                    ->help_text('<p><i>'. __( 'for low in stock (ml, gram, piece)', 'woo-material-control-for-products' ) .'</i></p>'),
             ) );
 
 

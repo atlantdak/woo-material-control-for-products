@@ -29,4 +29,11 @@
 	 * practising this, we should strive to set a better example in our own work.
 	 */
 
+    $(document).ready(function()
+        {
+            $("#inventory-report-table").tablesorter( {sortList: [[1,0]]} );
+        }
+    );
+
+
 })( jQuery );

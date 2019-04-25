@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-22 08:24+0000\n"
+"POT-Creation-Date: 2018-12-23 01:51+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -14,9 +14,27 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/"
 
-#: admin/includes/class-woo-material-control-for-products-admin-submenu-page.php:25
+#: admin/includes/class-woo-material-control-for-products-admin-submenu-page.php:32
+msgid "Report about all inventory"
+msgstr ""
+
+#: admin/includes/class-woo-material-control-for-products-admin-submenu-page.php:32
+msgid "Low in stock"
+msgstr ""
+
+#: admin/includes/class-woo-material-control-for-products-admin-submenu-page.php:45
 #: admin/includes/class-woo-material-control-for-products-admin-submenu.php:51
 msgid "Material control - Inventory report"
+msgstr ""
+
+#: admin/includes/class-woo-material-control-for-products-admin-submenu-page.php:62
+#: includes/classes/class-woo-material-control-for-products-fields.php:42
+msgid "Name of Material"
+msgstr ""
+
+#: admin/includes/class-woo-material-control-for-products-admin-submenu-page.php:63
+#: includes/classes/class-woo-material-control-for-products-fields.php:51
+msgid "Quantity of Material"
 msgstr ""
 
 #: admin/includes/class-woo-material-control-for-products-admin-submenu.php:52
@@ -28,12 +46,9 @@ msgstr ""
 msgid "Quantity of Inventory"
 msgstr ""
 
-#: includes/classes/class-woo-material-control-for-products-fields.php:42
-msgid "Name of Material"
-msgstr ""
-
-#: includes/classes/class-woo-material-control-for-products-fields.php:51
-msgid "Quantity of Material"
+#: includes/classes/class-woo-material-control-for-products-fields.php:33
+#: includes/classes/class-woo-material-control-for-products-fields.php:75
+msgid "Composition Of Product"
 msgstr ""
 
 #: includes/classes/class-woo-material-control-for-products-fields.php:53
@@ -51,10 +66,6 @@ msgstr ""
 
 #: includes/classes/class-woo-material-control-for-products-fields.php:66
 msgid "in stock (ml, gram, piece)"
-msgstr ""
-
-#: includes/classes/class-woo-material-control-for-products-fields.php:75
-msgid "Composition Of Product"
 msgstr ""
 
 #: includes/classes/class-woo-material-control-for-products-taxonomy.php:24

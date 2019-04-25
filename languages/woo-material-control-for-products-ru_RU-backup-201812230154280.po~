@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Woo material control for products\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-22 07:55+0000\n"
-"PO-Revision-Date: 2018-12-22 07:56+0000\n"
+"POT-Creation-Date: 2018-12-22 08:24+0000\n"
+"PO-Revision-Date: 2018-12-22 08:24+0000\n"
 "Last-Translator: purr <luckyinsite@gmail.com>\n"
 "Language-Team: Русский\n"
 "Language: ru_RU\n"
@@ -14,6 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/"
 
+#: admin/includes/class-woo-material-control-for-products-admin-submenu-page.php:25
 #: admin/includes/class-woo-material-control-for-products-admin-submenu.php:51
 msgid "Material control - Inventory report"
 msgstr "Контроль материалов - Отчёт о запасах"
@@ -51,6 +52,10 @@ msgstr "Количество в наличии"
 #: includes/classes/class-woo-material-control-for-products-fields.php:66
 msgid "in stock (ml, gram, piece)"
 msgstr "в наличии (мл, грамм, штук)"
+
+#: includes/classes/class-woo-material-control-for-products-fields.php:75
+msgid "Composition Of Product"
+msgstr "Состав продукта"
 
 #: includes/classes/class-woo-material-control-for-products-taxonomy.php:24
 msgid "Inventories"
