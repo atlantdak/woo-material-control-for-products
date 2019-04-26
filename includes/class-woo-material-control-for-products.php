@@ -67,8 +67,8 @@ class Woo_Material_Control_For_Products {
 	 * @since    1.0.0
 	 */
 	public function __construct() {
-		if ( defined( 'PLUGIN_NAME_VERSION' ) ) {
-			$this->version = PLUGIN_NAME_VERSION;
+		if ( defined( 'WMCFP_VERSION' ) ) {
+			$this->version = WMCFP_VERSION;
 		} else {
 			$this->version = '1.0.0';
 		}

@@ -166,7 +166,7 @@ class Woo_Material_Control_For_Products_Buying{
                      * то суммирую зарезервированные ранее с зарезервированными сейчас материалами
                      */
                     if( isset($_COOKIE[ 'inventory_in_cart_' . $inventory_names[0]['id'] ]) ){
-                        $inventory_quantity_reservation = $_COOKIE[ 'inventory_in_cart_' . $inventory_names[0]['id'] ] + $inventory_quantity_reservation_for_item;
+                        $inventory_quantity_reservation = sanitize_text_field( $_COOKIE['inventory_in_cart_' . $inventory_names[0]['id']] ) + $inventory_quantity_reservation_for_item;
                     }else{
                         $inventory_quantity_reservation = $inventory_quantity_reservation_for_item;
                     }

@@ -1,24 +1,17 @@
 <?php
 
 /**
- * The plugin bootstrap file
- *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
- *
  * @link              #
  * @since             1.0.0
  * @package           Woo_Material_Control_For_Products
  *
  * @wordpress-plugin
  * Plugin Name:       Woo material control for products
- * Plugin URI:        #
+ * Plugin URI:        https://github.com/atlantdak/woo-material-control-for-products
  * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.0.0
  * Author:            Kishkin Dmitriy (atlantdak)
- * Author URI:        #
+ * Author URI:        https://github.com/atlantdak
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       woo-material-control-for-products
@@ -35,7 +28,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.0.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'PLUGIN_NAME_VERSION', '1.0.0' );
+define( 'WMCFP_VERSION', '1.0.0' );
 
 /**
  * The code that runs during plugin activation.
